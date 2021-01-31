@@ -9,4 +9,4 @@ def passwordGenerator(length=5):
     password = str(int(password*(10**length)))
     return password
 
-print(passwordGenerator(6))
+print(passwordGenerator(60))
